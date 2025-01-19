@@ -1,2 +1,2 @@
-making the circuit of current mirror
+making the circuit of current mirror new version
 
