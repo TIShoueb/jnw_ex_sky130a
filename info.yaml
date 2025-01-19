@@ -18,4 +18,4 @@ doc:
   #       - <cell>
 sim:
   # <simdir>: command
-   JNW_EX: make typical
+  JNW_EX: make typical
