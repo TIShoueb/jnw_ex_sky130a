@@ -9,12 +9,11 @@
 toushif
 
 # Why
-
-<explain why you made this module>
+For entertainment 
 
 # How
 
-<explain short how you made this module>
+Doing a project of IC Designign
 
 
 # What
