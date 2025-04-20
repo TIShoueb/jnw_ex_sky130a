@@ -1,21 +1,39 @@
-library: JNW_EX_SKY130A
-cell: JNW_EX
+library: JNW_GR03_SKY130A
+cell: JNW_GR03
 # Your name
-author: Md. Toushif Islam shoueb
+author: Remi Trygve Tousif
 # Your github username
-github: TIShoueb
+github: analogicus
 # Something funny and descriptive
-tagline: The answer is 42
+tagline: 42 is still the answer. 
 # Your email, if you so wish
-email: mtshoueb@ntnu.no
+email: Multiple emails
 # Your github site, usually <github username>.github.io
-url: TIShoueb.github.io
+url: analogicus.github.io
 doc:
-  # Make docs
   libraries:
-      JNW_EX_SKY130A:
-          -JNW_EX 
-  #       - <cell>
+     JNW_GR03_SKY130A:
+       - JNW_GR03
+       - JNW_GR03_IvsT
+       - JNW_GR03_tvsI
+       - JNW_GR03_AMP
+       - JNW_GR03_2BCOUNTER_R
+       - JNW_GR03_8BCOUNTER
+       - JNW_GR03_DFLIPFLOP_F_R
+       - JNW_GR03_DFLIPFLOP_R
+       - JNW_GR03_DFLIPFLOP_R_R
+       - JNW_GR03_DigitalControl
+       - JNW_GR03_DLATCH
+       - JNW_GR03_NAND
+       - JNW_GR03_NAND3
+       - JNW_GR03_NOT
+       - JNW_GR03_TFLIPFLOP
+       - JNW_GR03_XOR
+       - JNW_GR03_XOR.sym
+       - TB_JNW_GR03_ANALOG
+       - TB_JNW_GR03_LSTB
+       
+       
+
 sim:
-  # <simdir>: command
-  JNW_EX: make typical
+  TB_JNW_GR03_LSTB: make typical
